@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>test site</title>
+  <meta charset="UTF-8"/>
+  </head>
+    <body>
+    <form action="#" method="get" enctype="multipart/form-data"></form>
+    <div>Имя</div>
+    <br>
+    <div>
+    <input tabindex="1" placeholder="Введите имя" type="text" name="username"/>
+    </div>
+    <br>
+    <div>Пароль</div>
+    <br>
+    <div>
+    <input type="password" placeholder="Введите пароль" name="user_password" value=""/>
+    </div>
+    <br>
+    <div>Телефон</div>
+    <br>
+    <div>
+      <input type="tel" placeholder="+7(999)999-99-99" name="user_phone" value=""/>
+    </div>
+    <br>
+    <div>Пол</div>
+    <div>
+      <p><input type="radio" name="user" value="man"/>Мужской</p>
+      <p><input type="radio" name="user" value="women"/>Женский</p>
+    </div>
+    <br>
+    <div>транспорт</div>
+    <div>
+      <p><input type="checkbox" name="user" value="bicycle"/>Велосипед</p>
+      <p><input type="checkbox" name="user" value="car"/>Автомобиль</p>
+    </div>
+    <br>
+    <div>Дополнительная информация</div>
+    <div>
+      <textarea name="text"></textarea>
+    </div>
+    <br/>
+    <div>
+      <p><input type="file" name="image"/>Фото транспорта</p>
+    </div>
+    <div>Район проживания</div>
+    <div>
+      <select name="town">
+        <option value="com">Коминтерновский</option>
+        <option selected value="cen">Центральный</option>
+        <option value="len">Ленинский</option>
+        <option value="lev">Левобережный</option>
+        <option value="zhelez">Железнодорожный</option>
+      </select>
+    </div>
+    <br/>
+    <div>
+      <button type="submit">отправить</button>
+      <button type="reset">отчистить</button>
+    </div>
+    </body>
+</html>
